@@ -103,12 +103,12 @@
 	/*---------------------------------------------------- */
 	/*	Masonry
 	------------------------------------------------------ */
-	var containerProjects = $('#folio-wrapper');
+	var containerProjects = $('#food-wrapper');
 
 	containerProjects.imagesLoaded( function() {
 
 		containerProjects.masonry( {		  
-		  	itemSelector: '.folio-item',
+		  	itemSelector: '.food-item',
 		  	resize: true 
 		});
 
